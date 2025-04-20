@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Prático 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <section class="cabecalho">
+        <button>
+            <img src="img/menu.png" width="35">
+        </button>
+
+        <header>
+            <h1>cineverse</h1>
+        </header>
+    </section>
+
+    <article class="filtragem">
+        <button onclick="href=''">Início</button>
+        <button onclick="href=''">Filtros</button>
+        <button onclick="href=''">Em cartaz</button>
+        <button onclick="href=''">Em breve</button>
+    </article>
+
+<div class="carrosel-slider">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-warning" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="bg-warning" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="bg-warning" aria-label="Slide 3"></button>
+        </div>
+    
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container py-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center">
+                            <img src="https://br.web.img3.acsta.net/c_310_420/img/a6/40/a64041f8e31044710db5c7d1c2766f42.jpg" class="img-fluid rounded" alt="O Homem Cão">
+                        </div>
+                        <div class="col-md-6 text-white">
+                            <h5>O Homem Cão</h5>
+                            <p>O Homem-Cão, metade cão e metade homem, jurou proteger e servir enquanto persegue obstinadamente o supervilão felino Petey, o Gato.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <div class="container py-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center">
+                            <img src="https://br.web.img3.acsta.net/c_310_420/img/d2/e5/d2e517612de9e1db2463aeec34dc6d29.jpg" class="img-fluid rounded" alt="O Macaco">
+                        </div>
+                        <div class="col-md-6 text-white">
+                            <h5>O Macaco</h5>
+                            <p>“Todo mundo morre. É a vida”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <div class="container py-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center">
+                            <img src="https://br.web.img3.acsta.net/c_310_420/img/b1/35/b1351babe7a777b7a97eded3db356990.jpg" class="img-fluid rounded" alt="Ainda Estou Aqui">
+                        </div>
+                        <div class="col-md-6 text-white">
+                            <h5>Ainda Estou Aqui</h5>
+                            <p>Inspirado no livro homônimo de Marcelo Rubens Paiva, Ainda Estou Aqui é o primeiro original Globoplay.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-warning" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-warning" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+</div>   
+
+    <main class="banner">
+        <img src="img/banner (1).png">
+    </main>
+
+    <div class="bem-vindo">
+        <h3>Seja bem-vindo(a)!</h3>
+    </div>
+
+    <div id="registro">
+        <form class="caixa-registro">
+            <input type="text" class="caixa-registro" placeholder="E-mail">
+            <input type="text" class="caixa-registro" placeholder="Senha">
+
+            <section id="botoes">
+                <button>Login</button>
+                <button>Criar conta</button>
+            </section>
+        </form>
+    </div>
+
+    <main class="container-filmes">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="filmes-container"></div>
+    </main>
+
+    <nav>
+        <ul>
+                <footer>Feito por Ana Júlia Santos Leite - Ciência da Computação, 1º período.</footer>
+
+            <li><a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm">
+                <footer>
+                    <p>Política de Privacidade e Termos de Uso</p>
+                </footer> 
+            </a></li>
+        </ul>
+    </nav>
+        
+</body>
+</html>

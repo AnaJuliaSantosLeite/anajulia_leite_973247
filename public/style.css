@@ -1,0 +1,314 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #0b0c0c;
+    color: white;
+    background-image: url(img/planodefundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    z-index: 1000;
+}
+
+header {
+    text-align: center;
+    color: rgb(255, 191, 0);
+}
+
+h1 {
+    text-transform:uppercase;
+    font-size: 3rem;
+    font-style: italic;
+    text-shadow: 0px 0px 30px rgb(255, 191, 0);
+}
+
+.cabecalho {
+    border-bottom: 1px solid;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.cabecalho button {
+    display: flex;
+    align-items: center;
+    background-color: #0b0c0c;
+    color: white;
+    margin: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.bem-vindo {
+    justify-content: center;
+    text-align: center;
+    text-shadow: 0px 0px 30px white;
+}
+
+.filtragem {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.filtragem button {
+    text-shadow: 0px 0px 30px white;
+    display: flex;
+    align-items: center;
+    background-color: #0b0c0c;
+    color: white;
+    margin: 16px;
+    border: none;
+    cursor: pointer;
+    border-right: solid white;
+    border-left: solid white;
+    border-width: 1px;
+    margin-inline: 0;
+    padding-inline: 30px;
+}
+
+.bem-vindo h3 {
+    color: inherit;
+    color: white;
+}
+
+.caixa-registro {
+    width: 20rem;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    border-color: white;
+    border-radius: 1rem;
+    background: none;
+    flex-direction: column;
+}
+
+.caixa-registro button {
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+#registro {
+    display: flex;
+    justify-content: center;
+}
+
+#botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.container-filmes {
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    cursor:pointer;
+}
+
+.container-filmes .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container-filmes .col {
+    width: 12.5rem;
+    margin-bottom: 2rem;
+}
+
+.container-filmes .card {
+    border: 2px solid white;
+    border-radius: 1rem;
+    width: 100%;
+    height: 35rem;
+    overflow: hidden;
+    background-color: #1a1a1a;
+    box-shadow: 0px 0px 10px rgb(255, 191, 0);
+    transition: transform 0.3s ease;
+}
+
+.container-filmes .card:hover {
+    transform: scale(1.02);
+}
+
+.container-filmes .card-img-top {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.container-filmes .card-body {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-filmes .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.container-filmes .card-text {
+    font-size: 1rem;
+    color: #bbb;
+}
+
+.container-filmes .card-text strong {
+    color: #ffb800;
+}
+
+.banner img {
+    display: block;
+    margin: 20px auto;
+    width: 50rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    border: 2px solid rgb(255, 191, 0);
+    border-inline-style: inherit;
+}
+
+footer {
+    text-align: center;
+    opacity: 50%;
+    z-index: 1000;
+    color: white;
+}
+
+.coluna-esquerda {
+    flex: 1;
+}
+
+.coluna-direita {
+    flex: 2;
+}
+
+.valor {
+    color: white;
+}
+
+.rotulo {
+    color: rgb(255, 191, 0);
+    font-weight: bold;
+    text-shadow: 0px 0px 30px rgb(255, 191, 0);
+}
+
+#informacoes-extras {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1000px;
+    color: rgb(255, 191, 0);
+}
+
+#informacoes-extras img {
+    width: 29rem;
+    border-radius: 1rem;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px rgb(255, 191, 0);
+    justify-content: right;
+}
+
+#informacoes-extras h1 {
+    text-transform:uppercase;
+    font-size: 3rem;
+    font-style: italic;
+    text-shadow: 0px 0px 30px rgb(255, 191, 0);
+}
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    .cabecalho {
+        border-bottom: 1px solid;
+        width: 50%;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .cabecalho button {
+        background-color: #0b0c0c;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 5px 10px;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+    }
+    
+    header h1 {
+        text-transform: uppercase;
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .filtragem {
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .filtragem button {
+        width: 50%;
+        margin: 5px 0;
+    }
+
+    .banner img {
+        width: 90%;
+        border-radius: 2rem;
+    }
+
+    .container-filmes .card {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .caixa-registro {
+        width: 90%;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1024px) {
+    .banner img {
+        display: block;
+        margin: 20px auto;
+        width: 30rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3rem;
+        border: 2px solid rgb(255, 191, 0);
+        border-inline-style: inherit;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .container-filmes .card {
+        height: 32rem;
+    }
+}
