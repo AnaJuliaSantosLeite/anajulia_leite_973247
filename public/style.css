@@ -336,6 +336,14 @@ h1 {
 
 @media screen and (min-width:320px) and (max-width:600px) {
 
+    .container-filmes h3 {
+        width: 50%;
+    }
+
+    .titulo-carrosel {
+        width: 50%;
+    }
+
     .cabecalho {
         border-bottom: 1px solid;
         width: 50%;
